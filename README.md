@@ -10,7 +10,7 @@ Folks are also encouraged to use the [Discussions](https://github.com/K12-Analyt
 
 - K12 specific data definitions, jargon, and background
 - The data problem of K12
-- Data standards
+- [Data standards](./docs/data_standards.md)
 - EdTech data out cheat sheet
 - The modern data stack and the emergence of ELT
 - [Dimensional modeling](./docs/dimensional_modeling.md)
