@@ -8,8 +8,8 @@ Folks are also encouraged to use the [Discussions](https://github.com/K12-Analyt
 
 ## Contents
 
-- K12 specific data definitions, jargon, and background
-- The data problem of K12
+- K12 glossary
+- [The K12 data problem](./docs/k12_data_problem.md)
 - [Data standards](./docs/data_standards.md)
 - EdTech data out cheat sheet
 - The modern data stack and the emergence of ELT
