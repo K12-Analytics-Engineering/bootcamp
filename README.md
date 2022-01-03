@@ -2,7 +2,7 @@
 
 This repository is meant to be a useful resource for all K12 analytics engineers. It is the community's hope that those new to the field and those who have been around a while find something useful that will help them continue to serve our collective students.
 
-Folks are also encouraged to use the [Discussions](https://github.com/K12-Analytics-Engineering/bootcamp/discussions) area to learn, share, and ask questions.
+<!-- Folks are also encouraged to use the [Discussions](https://github.com/K12-Analytics-Engineering/bootcamp/discussions) area to learn, share, and ask questions. -->
 
 ----
 
