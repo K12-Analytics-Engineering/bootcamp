@@ -12,7 +12,7 @@ This repository is meant to be a useful resource for all K12 analytics engineers
 - [The K12 data problem](./docs/k12_data_problem.md)
 - [Data standards](./docs/data_standards.md)
 - [Operational and analytical data systems](./docs/operational_and_analytical_data_systems.md)
-- EdTech data out cheat sheet
 - The modern data stack and the emergence of ELT
 - [Dimensional modeling](./docs/dimensional_modeling.md)
 - BI tools and visualization
+- EdTech data out cheat sheet

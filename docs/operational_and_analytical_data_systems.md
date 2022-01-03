@@ -1,5 +1,9 @@
 # Operational and analytical data systems
 
+> Analytic systems and operational systems serve fundamentally different purposes. An operational system supports the *execution* of a business process, while an analytic system supports the *evaluation* of the process.
+>
+> -- <cite>Christopher Adamson: <ins>[Star Schema The Complete Reference](https://www.amazon.com/Schema-Complete-Reference-Christopher-Adamson/dp/0071744320)</ins></cite>
+
 Simply put, operational data is the data created by the school district's day-to-day operations. The student information system is an example of an operational data system. An operational system is designed to support a high volume of transaction processing by which records are frequently being created, updated, and deleted. These systems are also referred to as Online Transaction Processing systems, or OLTP systems.
 
 As seen in the image below, the Ed-Fi Operational Data Store (ODS) is an additional layer of operational data before the analytical layer. K12 data systems are structured this way because of what the nature of an Ed-Fi integration is. When an edTech vendor provides an Ed-Fi integration, they take responsibility for managing a set of data on a target Ed-Fi API. This means the **vendor** will send data back to you and keep it up-to-date as it changes in their system. This additional operational data layer is also where the Ed-Fi Data Standard comes in. Naturally, operational data is modeled differently in each edTech platform. When each vendor maps their data to the Ed-Fi Data Standard, they are deciding how to represent their information via the Ed-Fi Unifying Data Model. That step allows for that data to become interoperable between systems and eases the downstream analytical data modeling.
