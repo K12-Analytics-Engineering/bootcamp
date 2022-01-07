@@ -19,4 +19,4 @@ Today storage is cheaper and we have data warehouse products such as BigQuery th
 ### Resources that informed this page:
 * [book] Christopher Adamson: <ins>[Star Schema The Complete Reference](https://www.amazon.com/Schema-Complete-Reference-Christopher-Adamson/dp/0071744320)</ins>
 * [book] Ralph Kimball: <ins>[The Data Warehouse Toolkit](https://www.amazon.com/Data-Warehouse-Toolkit-Definitive-Dimensional/dp/1118530802)</ins>
-* [youtube] [Kimball in the context of the modern data warehouse: what's worth keeping, and what's not](https://youtu.be/3OcS2TMXELU)
+* [youtube] Dave Fowler: [Kimball in the context of the modern data warehouse: what's worth keeping, and what's not](https://youtu.be/3OcS2TMXELU)
