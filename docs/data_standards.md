@@ -1,4 +1,4 @@
-# Data Standards
+# Data standards
 
 - [Ed-Fi](#ed-fi)
 

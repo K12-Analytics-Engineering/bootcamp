@@ -1,4 +1,4 @@
-# EdTech Data Out Cheat Sheet 
+# EdTech data out cheat sheet 
 
 | Vendor  | Application | Useful Links |
 | ------------- | ------------- | ------------- |

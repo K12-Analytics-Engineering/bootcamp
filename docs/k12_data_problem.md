@@ -1,4 +1,4 @@
-# The K12 Data Problem
+# The K12 data problem
 
 In your typical school district, student data is being created in more platforms than ever before. The student information system (SIS) is the system of record that contains student demographics and enrollment information. It typically also includes attendance and some, if not all, student grades. A learning management system (LMS) holds student assignment information and often have their own gradebook. Assessment platforms may be utilized for interim and normed assessment data. Beyond that there may also be many classroom focused edTech applications in use.
 
