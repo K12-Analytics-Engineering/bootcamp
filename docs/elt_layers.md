@@ -38,6 +38,7 @@ Below is a look at a dbt structure that utilizes the layers above. This example 
 |   |   |   ├── stg_edfi_calendar_dates.sql
 |   |   |   ├── schema.yml
 |   |   |   └── ...
+|   |   └── ...
 │   └── sources.yml
 └── dbt_project.yml
 ```
