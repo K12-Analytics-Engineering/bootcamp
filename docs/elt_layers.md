@@ -18,4 +18,4 @@ I typically find it helpful to create a `stg_` version of all of my fact tables 
 
 
 ## Resources that informed this page:
-* [blog] [How we structure our dbt projects](https://discourse.getdbt.com/t/how-we-structure-our-dbt-projects/355)
+* [blog] Claire Carroll: [How we structure our dbt projects](https://discourse.getdbt.com/t/how-we-structure-our-dbt-projects/355)
