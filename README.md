@@ -6,7 +6,7 @@ This repository is meant to be a useful resource for all K12 analytics engineers
 
 ## Contents
 
-- K12 glossary
+- [The K12 open source data stack](./docs/k12_open_source_data_stack.md)
 - [The K12 data problem](./docs/k12_data_problem.md)
 - [Data standards](./docs/data_standards.md)
 - [Operational and analytical data systems](./docs/operational_and_analytical_data_systems.md)
@@ -14,4 +14,3 @@ This repository is meant to be a useful resource for all K12 analytics engineers
 - [ELT and data warehouse layers](./docs/elt_layers.md)
 - Ed-Fi's place in an ELT workflow
 - BI tools and visualization
-- EdTech data out cheat sheet
