@@ -27,9 +27,8 @@ Below is a look at a dbt structure that utilizes the layers above. This example 
 |   |   |   ├── rpt_student_assessment.sql
 |   |   |   └── assessments.yml
 |   |   ├── attendance
-|   |   |   ├── fct_assessment.sql
-|   |   |   ├── fct_student_assessment.sql
-|   |   |   ├── rpt_student_assessment.sql
+|   |   |   ├── fct_student_attendance.sql
+|   |   |   ├── rpt_student_attendance.sql
 |   |   |   └── attendance.yml
 |   |   └── ...
 │   ├── staging
