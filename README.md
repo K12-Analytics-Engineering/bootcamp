@@ -12,7 +12,6 @@ This repository is meant to be a useful resource for all K12 analytics engineers
 - [Operational and analytical data systems](./docs/operational_and_analytical_data_systems.md)
 - [Dimensional modeling](./docs/dimensional_modeling.md)
 - [ELT and data warehouse layers](./docs/elt_layers.md)
-- [Data marts documentation](./docs/data_marts_documentation.md)
 - Ed-Fi's place in an ELT workflow
 - BI tools and visualization
 
