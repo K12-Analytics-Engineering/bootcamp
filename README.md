@@ -15,3 +15,7 @@ This repository is meant to be a useful resource for all K12 analytics engineers
 - [Data marts documentation](./docs/data_marts_documentation.md)
 - Ed-Fi's place in an ELT workflow
 - BI tools and visualization
+
+## Misc writings
+
+- Marcos Alcozer: [Ed-Fi is about more than analytics](https://medium.com/@marcos_alcozer/ed-fi-is-about-more-than-analytics-9e643608bf89)
