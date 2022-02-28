@@ -24,7 +24,7 @@
 
 ```
 
-* When joining tables and referencing columns from both, strongly prefer to reference the full table name instead of an alias. When the table name is long (~20), try to rename the CTE if possible, and lastly consider aliasing to something descriptive.
+* When joining tables and referencing columns from both, strongly prefer to reference the full table name instead of an alias. When the table name is long (~30), try to rename the CTE if possible, and lastly consider aliasing to something descriptive.
 
 ```sql
 
@@ -32,13 +32,13 @@
 SELECT    
     dim_student.student_unique_id,
     dim_section.course_title,
-    fct_student_grade.numeric_grade_earned,
-    fct_student_grade.letter_grade_earned
-FROM fct_student_section_grade AS fct_student_grade
+    fct_student_section_grade.numeric_grade_earned,
+    fct_student_section_grade.letter_grade_earned
+FROM fct_student_section_grade
 LEFT JOIN dim_section
-    ON fct_student_grade.section_key = dim_section.section_key
+    ON fct_student_section_grade.section_key = dim_section.section_key
 LEFT JOIN dim_student
-    ON fct_student_grade.student_key = dim_student.student_key
+    ON fct_student_section_grade.student_key = dim_student.student_key
 
 
 -- bad
