@@ -160,7 +160,6 @@ WITH my_data  AS (
 
 ```
 
-* Indentation within a query (e.g. columns, JOIN clauses, multi-line GROUP BY, etc.) should be indented 2 spaces
 * Lines of SQL should be no longer than 80 characters
 * Commas should be at the end-of-line (EOL) as a right comma
 * When SELECTing, always give each column its own row, with the exception of SELECT * which can be on a single row
