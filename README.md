@@ -14,6 +14,7 @@ This repository is meant to be a useful resource for all K12 analytics engineers
 - [ELT and data warehouse layers](./docs/elt_layers.md)
 - Ed-Fi's place in an ELT workflow
 - BI tools and visualization
+- [SQL style guide](./docs/sql_style_guide.md)
 
 ## Misc writings
 
