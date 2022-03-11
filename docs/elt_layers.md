@@ -10,6 +10,7 @@ Each data model here matches 1:1 with a table in your source layer. This is your
 * cast columns to a more appropriate data type
 * rename columns
 * remove duplicate records
+* introduce static value columns
 
 ## Dimension and fact tables
 As the [*Dimensional modeling*](./dimensional_modeling.md) article explains, star schema was created before we had powerful, columnar cloud data warehouses (ie. BigQuery and Snowflake). However, the design process that dimensional modeling necessitates is helpful in the sense that it allows us to first organize about our data in the context of dimensions and facts. Is a specific piece of data contextual (ie. gender, race, etc.) or is it measuring something (ie. grades, attendance, etc)?
