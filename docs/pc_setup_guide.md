@@ -16,7 +16,7 @@ winget install Microsoft.VisualStudioCode;
 After you have installed Visual Studio Code, you will need to install the [Remote Development](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack) extension. This allows you to open code in Visual Studio Code that resides in WSL2.
 
 
-# Ubuntu
+## Ubuntu
 Within Ubuntu you will install pyenv to manage your python version, poetry to manage your python virtual environments, and Oh My Zsh, a great framework that runs in the Zsh shell. Oh My Zsh allows for the use of plugins that simplify many workflows. For example, `autoswitch_virtualenv` is a plugin that automatically enters a poetry environment whenever you cd into a directory that has one.
 
 Open Windows Terminal to an Ubuntu shell and run the commands below.
@@ -72,3 +72,16 @@ pyenv global 3.9.10;
 curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python -;
 poetry --version;
 ```
+
+
+## Git
+Start by installing [Git for Windows (GCM)](https://github.com/git-for-windows/git/releases/tag/v2.35.1.windows.2). After you've installed Git for Windows, run the command below inside WSL2 to to set GCM as the Git credential helper,
+
+```bash
+git config --global credential.helper "/mnt/c/Program\ Files/Git/mingw64/libexec/git-core/git-credential-manager-core.exe"
+```
+
+## Workflow
+From within Ubuntu, you can now clone a repo via `git clone` onto your Linux filesystem, `cd` into it, and run `code .` to open that folder in Visual Studio Code.
+
+If you run `poetry init` or `poetry install` in a folder to create a python virtual environment, that environment will automatically be enabled every time you `cd` into the folder.
