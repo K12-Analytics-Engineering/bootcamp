@@ -16,6 +16,9 @@ This repository is meant to be a useful resource for all K12 analytics engineers
 - Ed-Fi's place in an ELT workflow
 - BI tools and visualization
 - [SQL style guide](./docs/sql_style_guide.md)
+- Dev setup guides
+    - [Mac setup guide](./docs/mac_setup_guide.md)
+    - [PC setup guide](./docs/pc_setup_guide.md)
 
 ## Misc writings
 
