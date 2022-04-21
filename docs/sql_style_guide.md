@@ -3,6 +3,7 @@
 ## Field Naming and Reference Conventions
 
 * Field names should use snake case
+* Field names and function names should all be lowercase
 * An id, name, or generally ambiguous value such as type should always be prefixed by what it is identifying or naming
 * Field names should reflect the Ed-Fi Data Standard when possible
 
