@@ -6,7 +6,7 @@ This repository is meant to be a useful resource for all K12 analytics engineers
 
 ## Contents
 
-- [Learning journey](https://docs.google.com/spreadsheets/d/1FbJgt_WZy05EPeKbRxC5ztTBB4Bu28a6U1PfAzCHdc4/edit?usp=sharing)
+- [Learning journey](https://docs.google.com/spreadsheets/d/e/2PACX-1vSAUtZ0bjHTBG-Fux1uuISpk0xlr-zFv1blq2cAxg5HiztZ55JXyd8h6YIco0bjIesaxzM3nBF9EMtu/pubhtml?gid=0&single=true)
 - [The K12 data problem ](./docs/k12_data_problem.md)
 - [The Ed-Fi Data Standard](./docs/data_standards.md)
 - [Operational and analytical data systems](./docs/operational_and_analytical_data_systems.md)
