@@ -39,7 +39,7 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 git clone "https://github.com/MichaelAquilina/zsh-autoswitch-virtualenv.git" "$ZSH_CUSTOM/plugins/autoswitch_virtualenv";
 ```
 
-Edit `~/.zshrc` and add the code below to the bottom of the file.
+Edit `~/.zshrc`, delete the line `plugins=(git)`, and add the code below to the bottom of the file.
 ```
 plugins=(
     git
