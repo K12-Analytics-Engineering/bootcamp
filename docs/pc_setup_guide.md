@@ -14,6 +14,8 @@ winget install Microsoft.VisualStudioCode;
 winget install -e --id GitHub.GitHubDesktop;
 ```
 
+Open GitHub Desktop and login to your GitHub account.
+
 After you have installed Visual Studio Code, you will need to install the [Remote Development](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack) extension. This allows you to open code in Visual Studio Code that resides in WSL2.
 
 
