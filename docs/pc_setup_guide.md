@@ -61,7 +61,7 @@ eval "$(pyenv init -)"
 
 ```
 
-Close and repoen Windows Terminal.
+Close and reopen Windows Terminal.
 
 Run the commands below to install python 3.9.10 and poetry.
 ```bash
