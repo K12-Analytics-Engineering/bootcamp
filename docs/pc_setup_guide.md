@@ -79,7 +79,7 @@ poetry --version;
 
 
 ## Git
-Start by installing [Git for Windows (GCM)](https://github.com/git-for-windows/git/releases/tag/v2.35.1.windows.2). After you've installed Git for Windows, run the command below inside WSL2 to to set GCM as the Git credential helper,
+Start by installing [Git for Windows (GCM)](https://github.com/git-for-windows/git/releases/tag/v2.35.1.windows.2). You will need to run the installer as an administrator. After you've installed Git for Windows, run the command below inside WSL2 to to set GCM as the Git credential helper,
 
 ```bash
 git config --global credential.helper "/mnt/c/Program\ Files/Git/mingw64/libexec/git-core/git-credential-manager-core.exe"
