@@ -34,7 +34,8 @@ git zsh libpq-dev unixodbc-dev;
 git clone https://github.com/pyenv/pyenv.git ~/.pyenv;
 
 # install oh my zsh
-sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)";
+
 git clone "https://github.com/MichaelAquilina/zsh-autoswitch-virtualenv.git" "$ZSH_CUSTOM/plugins/autoswitch_virtualenv";
 ```
 
