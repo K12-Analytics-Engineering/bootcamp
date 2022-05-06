@@ -11,6 +11,7 @@ wsl --install --distribution Ubuntu;
 # install windows terminal and visual studio code
 winget install Microsoft.WindowsTerminal;
 winget install Microsoft.VisualStudioCode;
+winget install -e --id GitHub.GitHubDesktop;
 ```
 
 After you have installed Visual Studio Code, you will need to install the [Remote Development](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack) extension. This allows you to open code in Visual Studio Code that resides in WSL2.
