@@ -6,9 +6,9 @@ Open PowerShell as an administrator and run the commands below. This uses Micros
 # install WSL2
 wsl --install --distribution Ubuntu;
 
-# install windows terminal and visual studio code
 winget install Microsoft.WindowsTerminal;
 winget install Microsoft.VisualStudioCode;
+winget install Git.Git;
 winget install GitHub.cli;
 ```
 
@@ -76,14 +76,19 @@ pyenv global 3.9.10;
 
 # install poetry
 curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python -;
-poetry --version;
 ```
 
 
 ## Git
-Start by installing [Git for Windows (GCM)](https://github.com/git-for-windows/git/releases/tag/v2.35.1.windows.2). You will need to run the installer as an administrator. After you've installed Git for Windows, run the command below inside WSL2 to to set GCM as the Git credential helper,
+Time to configure git and authenticate with GitHub.
 
-```bash
+In PowerShell:
+```sh
+gh auth login;
+```
+
+In Ubuntu:
+```sh
 git config --global credential.helper "/mnt/c/Program\ Files/Git/mingw64/libexec/git-core/git-credential-manager-core.exe"
 ```
 
