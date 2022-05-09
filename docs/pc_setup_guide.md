@@ -1,22 +1,24 @@
 # Windows setup guide
 This guide is meant to help a Windows user configure their development environment. This takes the approach of using Microsoft's Windows Subsystem for Linux (WSL2).
 
-First step is to install Ubuntu via WSL2 as well as Windows Terminal and Visual Studio Code. If the `winget` command is not available on your machine, you can also find both these applications in the Microsoft Store.
-
-Open PowerShell as an administrator and run the commands below.
-```bash
+Open PowerShell as an administrator and run the commands below. This uses Microsoft's package manager, `winget`, to install Windows Terminal, Visual Studio Code, and the GitHub CLI.
+```sh
 # install WSL2
 wsl --install --distribution Ubuntu;
 
 # install windows terminal and visual studio code
 winget install Microsoft.WindowsTerminal;
 winget install Microsoft.VisualStudioCode;
-winget install -e --id GitHub.GitHubDesktop;
+winget install GitHub.cli;
 ```
 
-Open GitHub Desktop and login to your GitHub account.
+After running the commands above, reboot your PC. After rebooting, Windows will prompt you to complete your Ubuntu setup by creating a username and password.
 
-After you have installed Visual Studio Code, you will need to install the [Remote Development](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack) extension. This allows you to open code in Visual Studio Code that resides in WSL2.
+Open PowerShell and run the command below to install the [Remote Development](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack) extension. This allows you to open code in Visual Studio Code that resides in WSL2.
+
+```sh
+code --install-extension ms-vscode-remote.vscode-remote-extensionpack;
+```
 
 
 ## Ubuntu
@@ -42,7 +44,7 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 git clone "https://github.com/MichaelAquilina/zsh-autoswitch-virtualenv.git" "$ZSH_CUSTOM/plugins/autoswitch_virtualenv";
 ```
 
-Edit `~/.zshrc`, delete the line `plugins=(git)`, and add the code below to the bottom of the file.
+Run `code ~/.zshrc` to open Oh My Zsh's config file, delete the line `plugins=(git)`, and add the code below to the bottom of the file.
 ```
 plugins=(
     git
