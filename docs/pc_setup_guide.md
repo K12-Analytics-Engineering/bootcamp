@@ -63,7 +63,7 @@ export PATH="$HOME/.poetry/bin:$PATH"
 
 eval "$(pyenv init --path)"
 eval "$(pyenv init -)"
-
+eval "$(enable_autoswitch_virtualenv)"
 ```
 
 Close and reopen Windows Terminal.
