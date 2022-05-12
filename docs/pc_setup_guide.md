@@ -1,7 +1,7 @@
 # Windows setup guide
 This guide is meant to help a Windows user configure their development environment. This takes the approach of using Microsoft's Windows Subsystem for Linux (WSL2).
 
-Open the PowerShell as an administrator and run the commands below.
+Open PowerShell as an administrator and run the commands below.
 ```sh
 # install WSL2
 wsl --install --distribution Ubuntu;
