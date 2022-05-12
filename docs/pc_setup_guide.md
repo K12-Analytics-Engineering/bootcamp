@@ -1,11 +1,14 @@
 # Windows setup guide
 This guide is meant to help a Windows user configure their development environment. This takes the approach of using Microsoft's Windows Subsystem for Linux (WSL2).
 
-Open PowerShell as an administrator and run the commands below. This uses Microsoft's package manager, `winget`, to install Windows Terminal, Visual Studio Code, and the GitHub CLI.
+Open the Command Prompt as an administrator and run the command below.
 ```sh
 # install WSL2
 wsl --install --distribution Ubuntu;
+```
 
+Open a normal Command Prompt (not as an administrator) and run the commands bewlow. This uses Microsoft's package manager, `winget`, to install Windows Terminal, Visual Studio Code, and the GitHub CLI.
+```sh
 winget install Microsoft.WindowsTerminal;
 winget install Microsoft.VisualStudioCode;
 winget install Git.Git;
