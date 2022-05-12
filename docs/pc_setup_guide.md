@@ -7,6 +7,8 @@ Open the Command Prompt as an administrator and run the command below.
 wsl --install --distribution Ubuntu;
 ```
 
+After running the command above, reboot your PC. After rebooting, Windows will prompt you to complete your Ubuntu setup by creating a username and password.
+
 Open a normal Command Prompt (not as an administrator) and run the commands bewlow. This uses Microsoft's package manager, `winget`, to install Windows Terminal, Visual Studio Code, and the GitHub CLI.
 ```sh
 winget install Microsoft.WindowsTerminal;
@@ -14,8 +16,6 @@ winget install Microsoft.VisualStudioCode;
 winget install Git.Git;
 winget install GitHub.cli;
 ```
-
-After running the commands above, reboot your PC. After rebooting, Windows will prompt you to complete your Ubuntu setup by creating a username and password.
 
 Open PowerShell and run the command below to install the [Remote Development](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack) extension. This allows you to open code in Visual Studio Code that resides in WSL2.
 
