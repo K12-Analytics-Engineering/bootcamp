@@ -16,16 +16,21 @@ Install iTerm2 via Homebrew.
 brew install --cask iterm2;
 ```
 
-Install gcloud SDK via Homebrew.
-```bash
-brew install --cask google-cloud-sdk;
-```
-
 Install pyenv and python 3.9.10.
 ```bash
 brew install pyenv;
 pyenv install 3.9.10;
 pyenv global 3.9.10;
+```
+
+Install gcloud SDK via Homebrew.
+```bash
+brew install --cask google-cloud-sdk;
+```
+
+If you already have a Google Cloud project, run the command below to configure your gcloud SDK.
+```
+gcloud init
 ```
 
 Install poetry via Homebrew.
