@@ -7,6 +7,7 @@ This repository is meant to be a useful resource for all K12 analytics engineers
 ## Contents
 
 - [Learning journey](https://docs.google.com/spreadsheets/d/e/2PACX-1vSAUtZ0bjHTBG-Fux1uuISpk0xlr-zFv1blq2cAxg5HiztZ55JXyd8h6YIco0bjIesaxzM3nBF9EMtu/pubhtml?gid=0&single=true)
+- [Data Studio bootcamp](https://k12-analytics-engineering.github.io/data-studio-tutorial)
 - [The K12 data problem ](./docs/k12_data_problem.md)
 - [The Ed-Fi Data Standard](./docs/data_standards.md)
 - [Operational and analytical data systems](./docs/operational_and_analytical_data_systems.md)
