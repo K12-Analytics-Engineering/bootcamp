@@ -21,7 +21,7 @@ Organizing data from the upstream layers into dimension and fact tables also all
 If the structure of a data model in the staging layer is vastly different than the structure needed for your data marts, it may be helpful to have a step between staging and marts. This intermediate step is pictured below using the assessments data mart as an example.
 
 ## Make it wide
-Once you have your marts built, it can be helpful to create a `rpt_` version of all of my fact tables that join on all dimensions so I have one big, wide table. Some cloud data warehouse products such as BigQuery have support for nested data (in BigQuery these are referred to as nested and repeated fields). I utilize nested data if joins onto dimensions are going to duplicate the data found in the fact table.
+Once you have your marts built, it can be helpful to create a `rpt_` version of all of the fact tables that join on all dimensions creating a big, wide table. Some cloud data warehouse products such as BigQuery have support for nested data (in BigQuery these are referred to as nested and repeated fields). I utilize nested data if joins onto dimensions are going to duplicate the data found in the fact table.
 
 Below is a look at a dbt structure that utilizes the layers above. Note the `stg_` files under `staging/edfi`. This is where the JSON strings from the Ed-Fi API are parsed to native BigQuery tables utilizing nested, repeated fields and casting data to the appropriate data type. Under `marts` there are subfolders that represent various 'business processes.' These align to the Analytics Middle Tier collections. Here there are dimension and fact tables as well as staging tables that 'pre-join' those together.
 
