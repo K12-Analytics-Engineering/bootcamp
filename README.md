@@ -1,12 +1,15 @@
 # K12 Analytics Engineering
 
-This repository is meant to be a useful resource for all K12 analytics engineers. It is the community's hope that those new to the field and those who have been around a while find something useful that will help them continue to serve our collective students.
+The K12 Analytics Engineering community is focused around implementing the data stack pictured below in school districts across the country. This project includes the [Learning journey](https://docs.google.com/spreadsheets/d/e/2PACX-1vSAUtZ0bjHTBG-Fux1uuISpk0xlr-zFv1blq2cAxg5HiztZ55JXyd8h6YIco0bjIesaxzM3nBF9EMtu/pubhtml?gid=0&single=true) to help a person grow their skills around analytics engineering, open-source code in this GitHub organization to deploy all parts of the stack below, and a [YouTube channel](https://www.youtube.com/channel/UCMtiBvdj_XGP4gDjh24Z0rw/videos).
+
+![Data stack](/assets/k12_data_stack.png)
 
 ----
 
 ## Contents
 
 - [Learning journey](https://docs.google.com/spreadsheets/d/e/2PACX-1vSAUtZ0bjHTBG-Fux1uuISpk0xlr-zFv1blq2cAxg5HiztZ55JXyd8h6YIco0bjIesaxzM3nBF9EMtu/pubhtml?gid=0&single=true)
+- [YouTube channel](https://www.youtube.com/channel/UCMtiBvdj_XGP4gDjh24Z0rw/videos)
 - [Data Studio bootcamp](https://k12-analytics-engineering.github.io/data-studio-tutorial)
 - [The K12 data problem ](./docs/k12_data_problem.md)
 - [The Ed-Fi Data Standard](./docs/data_standards.md)
