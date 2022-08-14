@@ -11,6 +11,7 @@ The K12 Analytics Engineering community is focused around implementing the data 
 - [Learning journey](https://docs.google.com/spreadsheets/d/e/2PACX-1vSAUtZ0bjHTBG-Fux1uuISpk0xlr-zFv1blq2cAxg5HiztZ55JXyd8h6YIco0bjIesaxzM3nBF9EMtu/pubhtml?gid=0&single=true)
 - [YouTube channel](https://www.youtube.com/channel/UCMtiBvdj_XGP4gDjh24Z0rw/videos)
 - [Data Studio bootcamp](https://k12-analytics-engineering.github.io/data-studio-tutorial)
+- [Ed-Fi on Google Cloud installer](https://github.com/K12-Analytics-Engineering/edfi)
 - [The K12 data problem ](./docs/k12_data_problem.md)
 - [The Ed-Fi Data Standard](./docs/data_standards.md)
 - [Operational and analytical data systems](./docs/operational_and_analytical_data_systems.md)
