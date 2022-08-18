@@ -27,4 +27,5 @@ The K12 Analytics Engineering community is focused around implementing the data 
 
 ## Misc writings
 
-- Marcos Alcozer: [Ed-Fi is about more than analytics](https://medium.com/@marcos_alcozer/ed-fi-is-about-more-than-analytics-9e643608bf89)
+- [Ed-Fi is about more than analytics](https://medium.com/@marcos_alcozer/ed-fi-is-about-more-than-analytics-9e643608bf89)
+- [You need a data lake](https://medium.com/@marcos_alcozer/you-need-a-data-lake-56acedc85a87)
