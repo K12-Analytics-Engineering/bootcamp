@@ -9,7 +9,7 @@ While the various components above (Ed-Fi, Dagster, and dbt) can be deployed on-
 
 | Component             | Google Cloud product | Configuration                                   | Yearly cost            | Committed usage cost                     |
 | --------------------- | -------------------- | ----------------------------------------------- | ---------------------- | ---------------------------------------- |
-| Ed-Fi ODS             | Cloud SQL            | PostgreSQL 11,<br>2 vCPUs,<br>6 GB of memory      | $750 / year              | 1 year: $568 / year<br />3 year: $370 / year |
+| Ed-Fi ODS             | Cloud SQL            | PostgreSQL 11,<br>1 vCPU,<br>6 GB of memory      | $750 / year              | 1 year: $568 / year<br />3 year: $370 / year |
 | Ed-Fi API             | Cloud Run            | 2 vCPUs,<br>2 GB of memory,<br>3 max instances    | Free<br>*Free tier is 2 million<br>requests per month* |          |
 | Ed-Fi Admin App       | Cloud Run            | 2 vCPUs,<br>1 GB of memory,<br>1 max instance     | Free<br>*Free tier is 2 million<br>requests per month* |          |
 | Dagster               | Google Kubernetes Engine | GKE Autopilot cluster   | $250 / year                       | N/A |
