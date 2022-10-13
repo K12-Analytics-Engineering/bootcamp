@@ -56,7 +56,7 @@ LEFT JOIN dim_student c
 
 ```
 
-* Boolean field names should start with `has`, `is`, or `does`
+* Boolean field names should start with `has`, `is`, `meets`, or `does`
 
 ```sql
 
