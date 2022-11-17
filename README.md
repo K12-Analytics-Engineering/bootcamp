@@ -12,8 +12,7 @@ The K12 Analytics Engineering community is focused around implementing the data 
     - [Mac setup guide](./docs/mac_setup_guide.md)
     - [PC setup guide](./docs/pc_setup_guide.md)
 - [Dagster](https://github.com/K12-Analytics-Engineering/dagster) and [dbt](https://github.com/K12-Analytics-Engineering/dbt) code
-
-
+---
 - [Learning journey](https://docs.google.com/spreadsheets/d/e/2PACX-1vSAUtZ0bjHTBG-Fux1uuISpk0xlr-zFv1blq2cAxg5HiztZ55JXyd8h6YIco0bjIesaxzM3nBF9EMtu/pubhtml?gid=0&single=true)
 - [YouTube channel](https://www.youtube.com/channel/UCMtiBvdj_XGP4gDjh24Z0rw/videos)
 - [Data Studio bootcamp](https://k12-analytics-engineering.github.io/data-studio-tutorial)
