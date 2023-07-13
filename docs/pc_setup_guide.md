@@ -60,7 +60,7 @@ source $ZSH/oh-my-zsh.sh
 export PATH="$HOME/.pyenv/bin:$PATH"
 export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
-export PATH="$HOME/.loca/bin/poetry:$PATH"
+export PATH="$HOME/.local/bin:$PATH"
 
 eval "$(pyenv init --path)"
 eval "$(pyenv init -)"
