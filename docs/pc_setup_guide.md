@@ -76,7 +76,7 @@ pyenv install 3.9.10;
 pyenv global 3.9.10;
 
 # install poetry
-curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python -;
+curl -sSL https://install.python-poetry.org | python3 -
 ```
 
 
