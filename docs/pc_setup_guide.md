@@ -44,6 +44,9 @@ git clone "https://github.com/MichaelAquilina/zsh-autoswitch-virtualenv.git" "$Z
 
 Run `code ~/.zshrc` to open Oh My Zsh's config file, delete the line `plugins=(git)`, and add the code below to the bottom of the file.
 ```
+alias python=python3
+alias pip=pip3
+
 plugins=(
     git
     web-search
